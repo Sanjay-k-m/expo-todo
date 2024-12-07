@@ -1,12 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 const Task = (props) => {
   return (
     <View style={styles.item}>
       <View style={styles.itemLeft}>
-        <TouchableOpacity style={styles.square}></TouchableOpacity>
-        <Text styyle={styles.itemText}>{props.text}</Text>
+        <View style={styles.square}></View>
+        <Text style={styles.itemText}>{props.text}</Text>
       </View>
       <View style={styles.circular}></View>
     </View>
